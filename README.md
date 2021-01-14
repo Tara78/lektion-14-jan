@@ -37,7 +37,9 @@ State i komponenter: https://reactjs.org/docs/faq-state.html
 
 ## Inspelningar
 
+Förmiddag: https://web.microsoftstream.com/video/f7b590a0-16cf-4255-9955-93b46f6a7be4?list=studio
 
+Eftermiddag: https://web.microsoftstream.com/video/16242233-e2cd-4fe0-a34f-4e4c7ae9c13d?list=studio
 
 ## Tidigare lektioner
 
