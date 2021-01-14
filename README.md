@@ -11,6 +11,8 @@ React hooks: https://scrimba.com/learn/learnreact/hooks-intro-crmJRqfm
 
 useState: https://scrimba.com/learn/learnreact/usestate-part-1-creating-state-cRqP9mhg
 
+useEffect: https://scrimba.com/learn/learnreact/useeffect-part-1-caqbeZTw
+
 ## Artiklar
 
 **React hooks**
@@ -19,6 +21,7 @@ React dokumentation: https://reactjs.org/docs/hooks-intro.html
 
 useState: https://reactjs.org/docs/hooks-state.html
 
+useEffect: https://reactjs.org/docs/hooks-effect.html
 
 **Vanilla JS metoder**
 
@@ -26,7 +29,11 @@ Array map: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glo
 
 Array filter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 
+**React teori**
 
+Att skicka funktioner som props: https://reactjs.org/docs/faq-functions.html
+
+State i komponenter: https://reactjs.org/docs/faq-state.html
 
 ## Inspelningar
 
