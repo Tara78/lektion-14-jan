@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 //Importerar vår pokemon.json för att kunna använda i denna fil
 import pokemon from './assets/pokemon.json';
 
@@ -22,6 +22,26 @@ function App() {
   const [pokemons, setPokemons] = useState(pokemon);
   //State för att spara favoritpokemon
   const [favorites, setFavorites] = useState([]);
+  const [pokemonsFromAPI, setPokemonsFromAPI] = useState([]);
+
+  //useEffect körs när ens state har uppdaterats
+  useEffect(() => {
+    console.log('useEffect körs när ens state uppdateras');
+  });
+
+  //useEffect körs enbart en gång vid sidladdning
+  useEffect(async () => {
+    const response = await fetch('https://pokeapi.co/api/v2/pokemon?limit=10&offset=10');
+    const data = await response.json();
+
+    setPokemonsFromAPI(data.results);
+  }, []);
+
+  //useEffect körs enbart när favorites uppdateras
+  useEffect(() => {
+    alert('Favoriter har uppdateras');
+  }, [favorites]);
+
 
   function updateFavorites(pokemon) {
     //Uppdatera vårt state där vi hämtar nuvarande state och sedan använder vi array metoden
